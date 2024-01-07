@@ -132,7 +132,7 @@ const nameChosen = function() : boolean {
     <button type="button" @click="connectWallet">{{ (walletActive == true) ? "Connected" : "Connect Wallet"}}</button>
     <div v-if="walletActive">
       <input placeholder="exampleName" class="rns" v-model="name"  >
-      <span class="rm">.rns</span>
+      <span class="rm">.jkl</span>
     <input class="tokens" v-model="amount"  >   
     <select v-model="selectedToken">
       <option value="JKL">JKL</option>
